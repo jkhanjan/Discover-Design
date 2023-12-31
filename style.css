@@ -29,6 +29,16 @@ html,body{
     display: none;
 }
 
+#loader p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;font-size: 10vw;
+    color: #00DF8E;
+    font-weight: 900;
+    margin-top: 60%;
+}
+
 #loader h1{
     width: 100%;
     color: white;
@@ -36,7 +46,7 @@ html,body{
     display: flex;
     justify-content: center;align-items: center;
     text-align: center;
-    margin-top: 60%;
+    margin-top: 20%;
     font-size: 4.5vw;
 }
 #loader h3{
@@ -45,7 +55,7 @@ html,body{
     display: flex;
     justify-content: center;align-items: center;
     text-align: center;
-    margin-top: 65%;
+    margin-top: 25%;
     font-size: 3.5vw;
 }
 #main{
@@ -1518,14 +1528,14 @@ html,body{
         width: 100%;
         position: absolute;
         z-index: 10;
-        top: 645%;
+        top: 640%;
     }
     
     #page7-para{
         height: 100%;
         line-height: 1;
         margin-left: 3%;
-        margin-top: 35vh;
+        margin-top: 30vh;
     }
     
     .page7-para{
