@@ -1040,6 +1040,12 @@ html,body{
 }
 
 @media (max-width:600px)  {
+
+    body{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
     #navbar{
         width: 100%;
         height: 15vh;
@@ -1062,7 +1068,7 @@ html,body{
     }
     
     #navbar-dots{
-        width: 8.2vw;
+        width: 9.2vw;
         height: 5vh;
         display: flex;
         gap: 3px;
@@ -1118,7 +1124,7 @@ html,body{
         right: 1%;
         /* top: 0 !important; */
         z-index: 8;
-        scale: 1 !important;
+        scale: 2 !important;
         /* transition: 7s; */
         /* transform: translate(10%,50%); */
         animation:  img1 cubic-bezier(0.075, 0.82, 0.165, 1) 5.2s both;
@@ -1323,26 +1329,28 @@ html,body{
     
       #page5{
         width: 100%;
-        height: 70vh;
+        height: 50vh;
         background-color:#00DF8E;
-        position: absolute;
-        margin-top: 440%;
+        position: relative;
         z-index: 2;
       }
     
       #page5>h1{
         font-size: 18vw;
         color: #310463;
+        position: absolute;
+        top: 20%;
+        left: 20%;
         font-weight: 600;
         letter-spacing: -1px;
         text-align: center;
-        margin-top: 20vh;
+        margin-top: 0vh;
       }
       #page6{
         position: absolute;
         border-radius: 50%;
         margin-left: 0.5%;
-        margin-top: 40vh;
+        margin-top: -20vh;
         border-radius: 50%;
         z-index: 2;
         height: 100vh;
@@ -1663,15 +1671,9 @@ html,body{
         height: 100vh;
         background-color: red;
         position: absolute;
-        top: 830%;
+        top: 840%;
     }
 
-    #page8-img{
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        object-fit: cover;
-    }
     
     .page8-para{
         position: absolute;
@@ -1703,10 +1705,12 @@ html,body{
     
     .page8-divs{
         position: absolute;
-        width: 400%;
-        height: 67vh;
-        top: 60%;
+        width: 80%;
+        margin-left: 10%;
+        height: 67rem;
+        top: 40%;
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
         align-items: center;
         text-align: center;
@@ -1717,32 +1721,31 @@ html,body{
         width: 100%;
         height: 100%;
         color: white;
-        border-left:2px solid #00DF8E ;
         overflow: hidden;
         margin-top: 10vh;
     }
     
     .page8-div h3{
-        font-size: 15vw;
+        font-size: 10vw;
         font-weight: 600;
         color: #00DF8E;
     }
     
     .page8-div h2{
         color: #00DF8E;
-        font-size: 5vw;
+        font-size: 3vw;
         font-weight: 700;
     }
     
     .page8-div-para{
-        margin-top: 10vh;
+        margin-top: 1vh;
         line-height: 1;
         margin-left: 5vw;
         overflow: hidden;
     }
     
     .page8-div-para p{
-        font-size: 5.3vw;
+        font-size: 3.3vw;
         font-weight: 500;
         text-align: left;
     }
@@ -1757,7 +1760,7 @@ html,body{
         height: 100vh;
         background-color: white;
         position: absolute;
-        top: 997%;
+        top: 1017%;
     }
     
     .page9-para1{
@@ -1936,7 +1939,7 @@ html,body{
         height: 120vh;
         width: 100%;
         position: absolute;
-        top: 1235%;
+        top: 1245%;
         z-index: 1;
         /* background-color: red; */
     }
@@ -1991,8 +1994,8 @@ html,body{
         display: flex;
         justify-content: center;align-items: center;
         text-align: center;
-        width: 27vh;
-        height: 27vh;
+        width: 20vh;
+        height: 20vh;
         background-color: red;
         border-radius: 50%;
         margin-right: 0vh;
