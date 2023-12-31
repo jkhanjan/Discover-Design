@@ -1525,7 +1525,7 @@ html,body{
         height: 100%;
         line-height: 1;
         margin-left: 3%;
-        margin-top: 25vh;
+        margin-top: 30vh;
     }
     
     .page7-para{
@@ -1943,7 +1943,7 @@ html,body{
         height: 120vh;
         width: 100%;
         position: absolute;
-        top: 1245%;
+        top: 1265%;
         z-index: 1;
         /* background-color: red; */
     }

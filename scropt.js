@@ -187,7 +187,7 @@ function scrollAnim() {
 
 
 }
-if (window.outerWidth && window.outerWidth > 480) {
+if (window.outerWidth && window.outerWidth > 400) {
     scrollAnim()
 }
 
@@ -304,7 +304,7 @@ function pinAnim() {
 
 
 }
-if (window.outerWidth && window.outerWidth > 480) {
+if (window.outerWidth && window.outerWidth > 400) {
     pinAnim()
 }
 
@@ -384,6 +384,6 @@ function lastAnim(){
     })
 
 }
-if (window.outerWidth && window.outerWidth > 480) {
+if (window.outerWidth && window.outerWidth > 400) {
     lastAnim()
 }
