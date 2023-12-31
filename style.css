@@ -29,14 +29,14 @@ html,body{
     display: none;
 }
 
-#loader p{
+#loader h2{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;font-size: 10vw;
     color: #00DF8E;
     font-weight: 900;
-    margin-top: 60%;
+    margin-top: 70%;
 }
 
 #loader h1{
@@ -46,7 +46,7 @@ html,body{
     display: flex;
     justify-content: center;align-items: center;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 75%;
     font-size: 4.5vw;
 }
 #loader h3{
@@ -55,7 +55,7 @@ html,body{
     display: flex;
     justify-content: center;align-items: center;
     text-align: center;
-    margin-top: 25%;
+    margin-top: 80%;
     font-size: 3.5vw;
 }
 #main{
@@ -1364,6 +1364,7 @@ html,body{
         border-radius: 50%;
         z-index: 2;
         height: 100vh;
+        margin-bottom: 10vh;
       }
     
       .page6-img{
