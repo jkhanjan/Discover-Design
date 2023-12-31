@@ -2059,5 +2059,33 @@ html,body{
         z-index: 11;
         display: block;
     }
+    #loader h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;font-size: 10vw;
+        color: #00DF8E;
+        font-weight: 900;
+        margin-top: 50%;
+    }
+    #loader h1{
+        width: 100%;
+        color: white;
+        position: absolute;
+        display: flex;
+        justify-content: center;align-items: center;
+        text-align: center;
+        margin-top: 55%;
+        font-size: 4.5vw;
+    }
+    #loader h3{
+        width: 100%;
+        color: white;
+        display: flex;
+        justify-content: center;align-items: center;
+        text-align: center;
+        margin-top: 60%;
+        font-size: 3.5vw;
+    }
     
 }
