@@ -1736,6 +1736,10 @@ html,body{
         font-size: 3vw;
         font-weight: 700;
     }
+
+    #page8-div4{
+        display: none;
+    }
     
     .page8-div-para{
         margin-top: 1vh;

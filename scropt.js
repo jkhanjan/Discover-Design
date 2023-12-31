@@ -384,5 +384,6 @@ function lastAnim(){
     })
 
 }
-lastAnim()
-
+if (window.outerWidth && window.outerWidth > 480) {
+    lastAnim()
+}
