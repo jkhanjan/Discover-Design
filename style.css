@@ -1518,14 +1518,14 @@ html,body{
         width: 100%;
         position: absolute;
         z-index: 10;
-        top: 640%;
+        top: 645%;
     }
     
     #page7-para{
         height: 100%;
         line-height: 1;
         margin-left: 3%;
-        margin-top: 30vh;
+        margin-top: 35vh;
     }
     
     .page7-para{
@@ -1671,7 +1671,7 @@ html,body{
         height: 100vh;
         background-color: red;
         position: absolute;
-        top: 860%;
+        top: 870%;
     }
 
     
